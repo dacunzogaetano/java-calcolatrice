@@ -23,7 +23,15 @@ public class CalcoliTest {
 		    System.out.println("Calcolo del valore assoluto del numero " + CalcoliHelper.valoreAssoluto(60.64));
 		    System.out.println("Il più piccolo tra i due numeri è " + CalcoliHelper.minimo(10.12, 5.34));
 		    System.out.println("Il più grande tra i due numeri è " + CalcoliHelper.massimo(10.67, 6.88));
-
+		    
+		    System.out.println("\n");
+		    
+		    //Bonus 2
+		    System.out.println("Il risultato di base n ed esponente 0 è " + CalcoliHelper.potenza(2, 0));
+		    System.out.println("Il risultato di base 0 ed esponente n è " + CalcoliHelper.potenza(0, 5));
+		    System.out.println("Il risultato di base n ed esponente n è " + CalcoliHelper.potenza(10, 3));
+		    System.out.println("Il risultato di base negativo ed esponente n è " + CalcoliHelper.potenza(-10, 3));
+		    System.out.println("Il risultato di base n ed esponente negativo è " + CalcoliHelper.potenza(10, -3));
 		  }
 
 	}
